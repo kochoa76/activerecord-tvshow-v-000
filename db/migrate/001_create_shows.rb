@@ -1,11 +1,11 @@
-class CreateShows < ActiveRecord::Migration 
+class CreateShows < ActiveRecord::Migration
 
-  def change 
+  def change
     create_table :shows do |t|
-      t.string :name 
-      t.string :network 
-      t.string :day 
-      t.integer :rating 
-    end 
+      t.string :name
+      t.string :network
+      t.string :day
+      t.integer :rating
+    end
   end 
-end 
+end
